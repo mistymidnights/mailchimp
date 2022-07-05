@@ -1,0 +1,98 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+    font-family: verdana;
+    margin: 0;
+}
+
+.left{
+    width: 30%;
+    background: white;
+}
+
+.right{
+    width: 70%;
+    background-color: white);
+    padding-left: 20px;
+}
+
+.left img{
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+h1{
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+h2{
+    font-size: medium;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+a{
+    font-size: 15px;
+    color: blue;
+    text-decoration: none;
+}
+
+.email-container, .username-container, .password-container{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.list-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 70%;
+    height: 30px;
+}
+
+ul{
+    padding-inline-start: 17px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+
+.left-side{
+    display: flex;
+}
+
+.submit-check-container{
+    width: 20%;
+    margin-bottom: 80px;
+}
+
+.terms{
+    width: 70%;
+}
+
+.terms input{
+    width: 20%;
+    height: 20px;
+}
+
+footer{
+    font-size: 10px;
+}
+
+footer a{
+    font-size: 10px;
+}
